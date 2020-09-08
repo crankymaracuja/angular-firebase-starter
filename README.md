@@ -67,7 +67,7 @@ Firebase is already initialized in this project.
 
 Add an alias and click `Register`.
 
-The SDK is already added to this project.
+Copy the content of `firebaseConfig` into the file `src/environments/environment.ts`.
 
 Run `firebase use --add` in your terminal and follow the instructions.
 
@@ -77,3 +77,6 @@ Read more about [Hosting here](https://firebase.google.com/docs/hosting).
 
 ## Setup Firebase Authentication
 
+Go to the firebase console and click on `Authentication`. Go to the tab `Sign-in method` and change `E-Mail/Password` to active.
+
+See the [firebaseui-angular docs here](https://www.npmjs.com/package/firebaseui-angular).
